@@ -20,6 +20,7 @@
 }
 .menu ul li a{
   text-decoration: none;
+  color: #b2b1b1;
 }
 .menu ul li a:visited{
   color: #b2b1b1;
@@ -136,7 +137,7 @@ small{
   text-align: center;
 }
 .icons ul li a{
-  color: #999;
+  color: #b2b1b1;
   border-radius: 50%;
   border: 1px solid #999;
   padding: 5px;
@@ -181,7 +182,18 @@ input[type=submit]:hover {
   color: #b2b1b1;
 }
 .pic img{
-  width: 400px;
+  width: 200px;
+  display:inline-block;
+  margin:5px 20px;
+  padding:5px;
+  vertical-align: middle;
+}
+ .pic {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
 }
 NEWSLETTER
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -213,4 +225,11 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   opacity: 0.8;
+}
+.footer .legal{
+  font-size: 7;
+}
+.footer a{
+text-decoration: none;
+color: inherit;
 }
