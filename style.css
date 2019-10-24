@@ -44,7 +44,7 @@
 }
 .reg-btn span{
   display: block;
-  padding: 8 22px
+  padding: 8px 22px
 }
 .banner{
   width: 80%;
@@ -231,4 +231,14 @@ input[type=submit]:hover {
 .footer a{
 text-decoration: none;
 color: inherit;
+}
+.jumbotron{
+  background: #f1f1f1 !important;
+}
+.panel-body{
+background: #f1f1f1;
+}
+.container-fluid{
+padding: 0 !important;
+background: #f1f1f1 !important;
 }
